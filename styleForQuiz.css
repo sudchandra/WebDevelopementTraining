@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 15px;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+   background-color:#001e4d;
+}
+.application
+{
+    width: 60%;
+    max-width: 600px;
+    background:white;
+    margin:100px auto 0;
+    border-radius: 15px ;
+    padding: 5px;
+
+}
+.application h1{
+    font-size:30px;
+    color:#001e4d ;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz
+{
+    padding: 20px 0;
+}  
+.quiz h2{
+    font-size: 18px;
+    color:#001e4d ;
+    font-weight: 600;
+
+}
+ .btn
+ {
+    background: white;
+    color:#222;
+    font-weight:500;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ;
+     
+ }
+ .btn:hover:not([disabled])
+{
+    background-color: #222;
+    color: white;
+    
+}
+.btn:disabled{
+    cursor:no-drop;
+}
+#nextbtn
+{
+    background-color: #001e4d;
+    color: white;
+    padding: 10px;
+    margin: 10px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    width: 100px;
+}
+.Correct
+{
+    background-color: green;
+}
+.InCorrect
+{
+    background-color: rgba(255, 72, 0, 0.629)
+}
+
